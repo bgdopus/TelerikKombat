@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Phaser - Making your first game, part 9</title>
+  <link rel="stylesheet" href="../GameCore/styles/menu.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <img src="../GameCore/assets/menu/Mortal-Kombat.jpg" class="menu-starting-img">
+    <div class="main-menu-container">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <span class="menu-item-content">NEW GAME</span>
+        </li>
+        <li class="menu-item">
+          <span class="menu-item-content">CHOOSE BACKGROUND</span>
+        </li>
+        <li class="menu-item">
+          <span class="menu-item-content">CHOOSE HERO</span></li>
+        <li class="menu-item">
+          <span class="menu-item-content">CONTROLS</span></li>
+        <li class="menu-item">
+          <span class="menu-item-content">EXIT</span></li>
+      </ul>
+    </div>
+
+    <div class="backgrounds-container">
+
+      <table class="background-imgs-container">
+        <tr>
+          <td class="background-mortal-1"><img class="background-img" src="../GameCore/assets/backgrounds/mortal.jpg" alt=""></td>
+          <td class="background-sky"><img class="background-img" src="../GameCore/assets/backgrounds/sky.png" alt=""></td>
+          <td class="background-apocalypse"><img class="background-img" src="../GameCore/assets/backgrounds/apocalypse-1.jpg" alt=""></td>
+          <td class="background-dungeon-one"><img class="background-img" src="../GameCore/assets/backgrounds/dungeon-one.jpg" alt=""></td>
+          <td class="background-dungeon-two"><img class="background-img" src="../GameCore/assets/backgrounds/dungeon-2.jpg" alt=""></td>
+        </tr>
+      </table>
+
+      <div class="choose-container">
+        <p id="back">BACK</p>
+        <p id="chose-different">CHOSE OTHER BACKGROUND</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="credits-menu">
+    <div class="credits-content">
+      <section>
+        <header> Player 1 - Hero</header>
+        <p>"up" - <span> arrow - jump</span></p>
+        <p>"left" - <span> arrow - go left</span></p>
+        <p>"rigth" - <span> arrow - go right</span></p>
+        <p>"M" key - <span> figth</p>
+      </section>
+      <section>
+        <header> Player 2 - Enemy</header>
+        <p>"W" key - <span> jump</span></p>
+        <p>"A" key - <span> go left</span></p>
+        <p>"D" key - <span> go right</span></p>
+        <p>"F" key - <span> figth</span></p>
+      </section>
+    </div>
+    <p id="credits-back">BACK</p>
+  </div>
+
+  <script src="./menu.js"></script>
+</body>
+
+</html>

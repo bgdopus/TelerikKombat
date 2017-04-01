@@ -1,0 +1,132 @@
+#wrapper {
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
+
+.menu-starting-img {
+    width: 800px;
+    height: 600px;
+    z-index: -10000;
+}
+
+.main-menu-container {
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    z-index: 1000;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding-left: 80px;
+}
+
+.menu-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    
+    color: yellowgreen;
+    width: 230px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-left: 30px;
+}
+
+.menu-item-content {
+    font-size: 15px;
+    padding-left: 16px;
+     text-shadow: 2px 2px black;
+}
+
+.menu-item-content:hover {
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+.menu-item-content .purple {
+    color: purple;
+}
+
+.main-menu-container.hidden {
+    display: none;
+}
+
+.background-imgs-container {
+    position: relative;
+    bottom: 500px;
+    left: 150px;
+}
+
+.background-imgs-container td:hover {
+    background-color: rebeccapurple;
+}
+
+.background-imgs-container td img {
+    width: 100px;
+    height: 100px;
+}
+
+.backgrounds-container {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: none;
+}
+
+#back {
+    position: absolute;
+    top: 550px;
+    left: 40px;
+    color: yellowgreen;
+}
+
+#chose-different {
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    color: yellowgreen;
+}
+
+.credits-menu {
+    display: none;
+}
+
+.credits-menu p {
+    position: relative;
+    bottom: 5%;
+    left: 2%;
+    font-size: 17px;
+    color: yellowgreen;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.credits-menu section {
+    position: relative;
+    bottom: 600px;
+    left: 100px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.credits-menu section header {
+    color: lemonchiffon;
+    font-size: 30px;
+}
+
+.credits-menu section p {
+    color: red;
+    margin-top: 40px;
+}
+
+.credits-menu section p span {
+    color: white;
+}
+
+#credits-back {
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    color: yellowgreen;
+}
